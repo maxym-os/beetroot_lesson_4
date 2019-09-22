@@ -30,7 +30,9 @@ p {
 
 p:hover {
     background-color: #625e77;
-    border: 4px white;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    box-sizing: border-box;
 }
 
 p:active {
