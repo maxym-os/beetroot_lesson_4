@@ -48,11 +48,11 @@ p:active {
     background-color: #e9877c;
 }
 
-span:before {
+small:before {
     content: '('
 }
 
-span:after {
+small:after {
     content: ')'
 }
 
@@ -60,9 +60,14 @@ span:after {
     background-color: #7a7593;
 }
 
-span {
-    font-size: 12px;
+small {
+    font-size: 16px;
     color: #cdc6c6;
+}
+
+input:checked + span, input:checked + span > small {
+	text-decoration: line-through;
+	color:#cdc6c6;
 }
 
 section + footer {
